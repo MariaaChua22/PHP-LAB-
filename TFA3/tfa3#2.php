@@ -21,6 +21,8 @@
         echo "<table border='2'>";
         echo "<tr>";
         echo "<td colspan='2'><b>Array List: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</b></td>";
+        echo "</tr>";
+        
         echo "<tr>";
         echo "<td>Addition: </td>"; 
         echo "<td>" . $sum . "</td>";
