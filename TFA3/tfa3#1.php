@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="tfa3-1.css">
-    <title> Information Data </title>
+    <title> Array: Sorting and Looping Through Array Elements </title>
 </head>
 <body>
     <?php
