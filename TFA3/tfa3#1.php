@@ -98,6 +98,8 @@
             
 
         );
+        usort($person, function($a, $b) { 
+        return strcasecmp($a['Name'], $b['Name']); });
 
         echo "<table border='2'>";
         echo "<tr>
@@ -109,9 +111,10 @@
             <th>Contact number</th>
             </tr>";
 
+        $i = 1; 
         foreach ($person as $row) {
             echo "<tr>";
-            echo "<td>" . $row["no."] . "</td>";
+            echo "<td>" . $i++ . "</td>";
             echo "<td>" . $row["Name"] . "</td>";
             echo "<td><img src='" . $row["Image"] . "' width='100'></td>";
             echo "<td>" . $row["Age"] . "</td>";
