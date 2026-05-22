@@ -1,0 +1,19 @@
+table {
+    width: 50%;
+    table-layout: fixed;
+    margin: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    background-color: #b5ff9f;
+}
+
+h1 {
+    text-align: center;
+}
