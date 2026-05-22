@@ -1,10 +1,9 @@
 <html>
 <head>
     <link rel="stylesheet" href="tfa3-2.css">
-    <title> Array List Operations </title>
+    <title> Array: Array List and Arithmetic Operations </title>
 </head>
 <body> 
-    <h1> Array List Operations </h1>
      <?php
         $numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
         
@@ -22,7 +21,7 @@
         echo "<tr>";
         echo "<td colspan='2'><b>Array List: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</b></td>";
         echo "</tr>";
-        
+
         echo "<tr>";
         echo "<td>Addition: </td>"; 
         echo "<td>" . $sum . "</td>";
