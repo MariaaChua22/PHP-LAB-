@@ -1,13 +1,6 @@
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Short Stories</title>
-    <link rel="stylesheet" href="tfa4.css">
-</head>
-
+<?php require ('header.php') ?>
 <body>
-    <!-- images are obtained from Pinterest.com -->
     <main class="story-page">
         <section class="story-row">
             <a class="story-card" href="liham.php">
@@ -32,5 +25,6 @@
             </a>
         </section>
     </main>
+    <?php include ('footer.php') ?>
 </body>
 </html>
