@@ -17,7 +17,6 @@
         ),
 
         array(
-            "no." => 2,
             "Name" => "Blueberry",
             "Image" => "images/blueberry.jpg",
             "Description" => "A small blue-purple fruit.",
@@ -25,7 +24,6 @@
         ),
 
         array(
-            "no." => 3,
             "Name" => "Coconut",
             "Image" => "images/coconut.jpg",
             "Description" => "A tropical fruit with hard shell.",
@@ -33,7 +31,6 @@
         ),
 
         array(
-            "no." => 4,
             "Name" => "Dragon Fruit",
             "Image" => "images/dragonfruit.jpg",
             "Description" => "An exotic fruit with vibrant color.",
@@ -41,7 +38,6 @@
         ),
 
         array(
-            "no." => 5,
             "Name" => "Guava",
             "Image" => "images/guava.jpg",
             "Description" => "A sweet fruit with edible seeds.",
@@ -49,7 +45,6 @@
         ),
 
         array(
-            "no." => 6,
             "Name" => "Lemon",
             "Image" => "images/lemon.jpg",
             "Description" => "A sour citrus fruit.",
@@ -57,7 +52,6 @@
         ),
 
         array(
-            "no." => 7,
             "Name" => "Papaya",
             "Image" => "images/papaya.jpg",
             "Description" => "A soft orange tropical fruit.",
@@ -65,7 +59,6 @@
         ),
 
         array(
-            "no." => 8,
             "Name" => "Peach",
             "Image" => "images/peach.jpg",
             "Description" => "A juicy fruit with fuzzy skin.",
@@ -73,7 +66,6 @@
         ),
  
         array(
-            "no." => 9,
             "Name" => "Pear",
             "Image" => "images/pear.jpg",
             "Description" => "A sweet bell-shaped fruit.",
@@ -81,7 +73,6 @@
         ),
 
         array(
-            "no." => 10,
             "Name" => "Rambutan",
             "Image" => "images/rambutan.jpg",
             "Description" => "A hairy tropical fruit.",
@@ -97,11 +88,10 @@
     echo "<table border='2'>";
 
     echo "<tr>
-            <td colspan='5'><b>Fruit Directory</b></td>
+            <td colspan='4'><b>Fruit Directory</b></td>
           </tr>";
 
     echo "<tr>
-            <th>No.</th>
             <th>Name</th>
             <th>Image</th>
             <th>Description</th>
@@ -113,8 +103,6 @@
     foreach($fruits as $row)
     {
         echo "<tr>";
-
-        echo "<td>" . $i++ . "</td>";
         echo "<td>" . $row["Name"] . "</td>";
         echo "<td><img src='" . $row["Image"] . "' width='120'></td>";
         echo "<td>" . $row["Description"] . "</td>";
