@@ -1,78 +1,70 @@
 :root {
-  --main-background-color: #e9c2ff;
-  --main-text-color: #111;
-  --card-background-color: #ffffff;
-  --card-border: #d7d7d7;
-  --card-shadow: rgba(0, 0, 0, 0.12);
-  --card-radius: 8px;
-  --font-size: 16px;
+  --background-color: #fbffbd;
   --text-color: #222;
-  --gap-size: 16px;
+  --card-background: #fff;
+  --card-border: #d7d7d7;
+  --shadow: rgba(0, 0, 0, 0.12);
+  --radius: 8px;
+  --gap: 16px;
 }
 
 * {
   box-sizing: border-box;
+}
+.header {
+  text-align: center;
+  padding: 30px;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
   font-family: 'Times New Roman', serif;
-  font-size: var(--font-size);
-  background: #fbffbd;
+  font-size: 16px;
+  background: var(--background-color);
   color: var(--text-color);
 }
 
-.story-page {
+.page {
   padding: 30px;
 }
 
+
 .story-row {
   display: flex;
-  justify-content: space-between;
-  gap: var(--gap-size);
+  gap: var(--gap);
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .story-card {
-  flex: 1 1 0;
+  flex: 1;
   min-width: 160px;
+  min-height: 260px;
   border: 1px solid var(--card-border);
-  border-radius: var(--card-radius);
-  background: var(--card-bg-color);
-  box-shadow: 0 12px 28px var(--card-shadow);
+  border-radius: var(--radius);
+  background: var(--card-background);
+  box-shadow: 0 12px 28px var(--shadow);
   position: relative;
   overflow: hidden;
-  min-height: 260px;
   text-align: center;
-  color: #fff;
   font-weight: 600;
+  color: #fff;
   text-decoration: none;
   cursor: pointer;
-  display: block;
 }
 
 .story-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
 
-.story-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.55));
-  pointer-events: none;
-}
 
 .story-label {
   position: absolute;
   left: 16px;
   bottom: 16px;
-  z-index: 1;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -80,12 +72,31 @@ body {
 
 .story-card:hover {
   transform: translateY(-2px);
-  transition: transform 0.3s ease;
+  transition: 0.3s ease;
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.16);
 }
 
-.footer {
-  margin: var(--gap-size);
-  padding: 15px;
+div {
+  margin: 30px auto;
+  width: min(100%, 900px);
+  border: 1px solid var(--card-border);
+  border-radius: 25px;
+  background: var(--card-background);
+  box-shadow: 0 12px 28px var(--shadow);
+  padding: 30px;
+  color: var(--text-color);
+}
+
+h1 {
   text-align: center;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
