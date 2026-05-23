@@ -1,5 +1,6 @@
 <html>
 <?php require ('header.php') ?>
+
 <body>
     <main class="story-page">
         <section class="story-row">
@@ -25,6 +26,7 @@
             </a>
         </section>
     </main>
+    
     <?php include ('footer.php') ?>
 </body>
 </html>
