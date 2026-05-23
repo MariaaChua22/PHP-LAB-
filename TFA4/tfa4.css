@@ -8,9 +8,12 @@
   --gap: 16px;
 }
 
+/* Some codes obtained from W3School.com */ 
+
 * {
   box-sizing: border-box;
 }
+
 .header {
   text-align: center;
   padding: 30px;
