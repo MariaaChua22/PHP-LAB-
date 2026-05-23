@@ -10,7 +10,6 @@
     $fruits = array(
 
         array(
-            "no." => 1,
             "Name" => "Avocado",
             "Image" => "images/avocado.jpg",
             "Description" => "A creamy green fruit.",
@@ -72,7 +71,7 @@
             "Description" => "A juicy fruit with fuzzy skin.",
             "Facts" => "Peaches are low in calories and high in fiber."
         ),
-
+ 
         array(
             "no." => 9,
             "Name" => "Pear",
