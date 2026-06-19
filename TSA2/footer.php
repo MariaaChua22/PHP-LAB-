@@ -1,6 +1,6 @@
 <footer class="footer">
     <hr>
-    <p>Copyright &copy; 2026 Akda ni Maria</p>
+    <p>Copyright &copy; 2026 Allison See</p>
 </footer>
 </body>
 </html>    
