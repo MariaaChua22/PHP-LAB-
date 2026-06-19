@@ -13,9 +13,6 @@
             background-color: #c5b9cd;  
 
         }  
-
-  
-
         h2 {  
 
             text-align: center;  
