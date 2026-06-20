@@ -1,5 +1,55 @@
+:root
+{
+    --box-shadow: 0px 0px 10px gray;
+    --border-radius: 10px;
+    --background-color: bisque;
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d1b48c;
+}
+
 label
 {
         display: inline-block;
-        width: 150px;
+        width: 200px;
+        margin-bottom:10px;
 }
+
+.container
+{
+    width: 500px;
+    margin: 50px auto;
+    background-color:var(--background-color);
+    padding: 20px;
+    border-radius:var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.row
+{
+    width: 500px;
+    margin: auto;
+    background-color: bisque;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+h2
+{
+    text-align: center;
+}
+
+input[type="text"]
+{
+    width: 250px;
+    padding: 5px;
+}
+
+.btn
+{
+    margin-top: 15px;
+    padding: 10px 15px;
+}
+
