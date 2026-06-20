@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
 
     <title>Data retrieved using $_POST</title>
 </head>
 
-<style>
-    label{
-        display: inline-block;
-        width: 150px;
-    }
-</style>
-
 <body>
+<div class="header">
+    <h1> Registration </h1>
+</div>
+
+<hr>
+
+<div class="container">
 <form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
     <label for="fullname" class="form-label"><b>Full Name:</b></label>
     <input type="text" name="fullname" id="fullname"> <br>
@@ -31,9 +32,10 @@
     <input type="text" name="address" id="address"><br>
     <input type="submit" name="submit" id="submit">
 </form>
+</div>
 
 <div class="row">
-        <h3> Data retrieved using $_POST</h3>
+        <h2> Data retrieved using $_POST</h2>
 
         <?php
         if(isset($_POST['submit'])):
