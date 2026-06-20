@@ -21,41 +21,6 @@ if(isset($_POST['submit']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorite Colors</title>
 
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
-
-        .container{
-            width: 500px;
-            margin: 50px auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px gray;
-        }
-
-        h2{
-            text-align: center;
-        }
-
-        label{
-            display: inline-block;
-            width: 120px;
-            margin-bottom: 10px;
-        }
-
-        input[type="text"]{
-            width: 250px;
-            padding: 5px;
-        }
-
-        .btn{
-            margin-top: 15px;
-            padding: 8px 15px;
-        }
-    </style>
 </head>
 <body>
 
