@@ -16,7 +16,7 @@
         width: 150px;
     }
 </style>
-
+<!-- Do the same for $_POST -->
 <body>
 <form action="<?= $_SERVER['PHP_SELF']; ?>" method="get">
     <label for="fullname" class="form-label"><b>Full Name:</b></label>
