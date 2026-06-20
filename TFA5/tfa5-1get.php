@@ -13,6 +13,7 @@
 
 
 <body>
+<div class="container">
 <form action="<?= $_SERVER['PHP_SELF']; ?>" method="get">
     <label for="fullname" class="form-label"><b>Full Name:</b></label>
     <input type="text" name="fullname" id="fullname"> <br>
@@ -26,6 +27,7 @@
     <input type="text" name="address" id="address"><br>
     <input type="submit" name="submit" id="submit">
 </form>
+</div>
 
 <div class="row">
         <h3> Data retrieved using $_GET</h3>
