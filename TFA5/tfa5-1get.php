@@ -11,8 +11,13 @@
     <title>Data retrieved using $_GET</title>
 </head>
 
-
 <body>
+<div class="header">
+    <h1> Registration </h1>
+</div>
+
+<hr>
+
 <div class="container">
 <form action="<?= $_SERVER['PHP_SELF']; ?>" method="get">
     <label for="fullname" class="form-label"><b>Full Name:</b></label>
@@ -29,8 +34,9 @@
 </form>
 </div>
 
+
 <div class="row">
-        <h3> Data retrieved using $_GET</h3>
+        <h2> Data retrieved using $_GET</h2>
 
         <?php
         if(isset($_GET['submit'])):
