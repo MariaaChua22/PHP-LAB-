@@ -35,7 +35,6 @@ if(isset($_POST['submit']))
 <hr>
 
 <div class="container">
-
     <form method="post">
 
         <label>Favorite Color 1:</label>
