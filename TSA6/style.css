@@ -1,0 +1,109 @@
+:root
+{
+    --box-shadow: 0px 0px 10px gray;
+    --border-radius: 10px;
+    --background-color: bisque;
+}
+
+.header
+{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    background-color: #d1b48c;
+}
+
+.header h1 
+{  
+    margin: 0;  
+    font-size: 42px;  
+}  
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d1b48c;
+    margin: auto;
+}
+
+label
+{
+    display: inline-block;
+    width: 200px;
+    margin-bottom:10px;
+}
+
+.container
+{
+    width: 600px;
+    margin: 30px auto;
+    padding: 60px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.row
+{
+    width: 600px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+h2
+{
+    text-align: center;
+}
+
+p
+{
+    font-size: 18px;
+    margin-left: auto;
+}
+
+hr
+{
+    border: 1px solid #000000;
+    width: 80%;
+    margin: auto;
+}
+
+input[type="submit"]
+{
+    width: 100%;
+    margin: 14px 0;
+    padding: 14px;
+    color: black;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+table
+{
+   width:90%;
+   margin:auto;
+   background:white;
+   border-collapse:collapse;
+}
+
+th
+{
+   background:#007bff;
+   color:white;
+}
+
+th,td
+{
+   border:1px solid #ddd;
+   padding:10px;
+   text-align:center;
+}
+
+h2
+{
+   text-align:center;
+}
