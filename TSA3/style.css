@@ -1,0 +1,98 @@
+:root
+{
+    --box-shadow: 0px 0px 10px gray;
+    --border-radius: 10px;
+    --background-color: rgb(255, 255, 255);
+}
+
+.header
+{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    background-color: #91456e;
+}
+
+.header h1 
+{  
+    margin: 0;  
+    font-size: 42px;  
+}  
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #91456e;
+    margin: 12px auto;
+    font-size: 25px;
+}
+
+label
+{
+    display: inline-block;
+    width: 280px;
+    margin-bottom:10px;
+    
+}
+
+input
+{
+    border-radius: var(--border-radius);
+    width: 500px;
+}
+
+.container 
+{
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.row
+{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+h2
+{
+    text-align: center;
+}
+
+p
+{
+    font-size: var(--font-size);
+    margin-left: auto;
+}
+
+hr
+{
+    border: 1px solid #000000;
+    width: 100%;
+    margin: auto;
+}
+
+input[type="submit"]
+{
+    width: 250px;
+    margin: 14px 0;
+    padding: 14px;
+    color: black;
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+}
+
+.footer 
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
